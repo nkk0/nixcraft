@@ -1,0 +1,10 @@
+# Encrypted secrets — safe at rest, but no reason to publish
+secrets/*.yaml
+.sops.yaml
+
+# Machine-specific, auto-generated
+hardware-configuration.nix
+
+# Nix build artifacts
+result
+modules/minecraft/geyser.nix
